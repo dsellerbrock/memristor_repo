@@ -1,0 +1,57 @@
+component Memristor_ideal 
+% memristor_ideal: 
+%
+% Models a ideal memristor. 
+
+
+% Copyright 2005-2008 The MathWorks, Inc.
+  nodes
+    p = foundation.electrical.electrical; % +:top
+    n = foundation.electrical.electrical; % -:bottom
+  end
+
+  parameters
+    G1  = {0.9999, 'S' };     % G1 
+    G0 = {0.0001 ,'S'};       % G0
+    v_off = { 1 ,'V'};        % Voff+
+    v_on = {  -1 ,'V'};       % Von-
+    w0 = { 0, '1' };          % winit
+    c1 = { 1, 'V' };          % c1
+    c2 = { 9.999e-6, 's*V' }; % c2
+  end
+
+  variables
+    w = { 0, '1'   };         % Internal state variable
+    i = { 0, 'A'   };         % Current through variable
+    v = { 0, 'V'   };         % Voltage across variable
+    power_dissipated = {0, 'W'};    % Power dissipatedz
+  end
+
+  function setup
+    if G0 < 0
+        error('r_on must be Greater Than Or Equal To Zero')
+    end
+    if G1 < 0
+        error('r_off must be Greater Than Or Equal To Zero')
+    end
+    if w0 < 0
+        error('d_wide must be Greater Than Or Equal To Zero')
+    end
+    through( i, p.i, n.i ); % Through variable i from node p to node n
+    across( v, p.v, n.v );  % Across variable v from p to n
+    w = w0;
+  end
+
+  equations
+      let
+          G = G1*w+G0;
+          f_w = (floor((sign((1-w)*v)+1)/2)+floor((sign(-w*v)+1)/2));
+          kv = (abs(v)-c1)/c2;
+      in
+          i == v*G;
+          w.der == floor((sign(v-v_off)+1)/2)*f_w*kv-floor((sign(v_on-v)+1)/2)*f_w*kv;
+      end
+           power_dissipated == i*v;
+  end
+
+end
