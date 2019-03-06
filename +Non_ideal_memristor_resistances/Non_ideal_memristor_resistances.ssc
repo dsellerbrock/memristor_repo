@@ -1,4 +1,4 @@
-component memristor < foundation.electrical.branch
+component Non_ideal_memristor_resistances < foundation.electrical.branch
 % Memristor
 % Models an ideal memristor with a nonlinear dopant drift approach.
 %
