@@ -1,7 +1,7 @@
-component Memristor_ideal 
-% memristor_ideal: 
+component Memristor_Non_ideal_conductances
+% memristor_non-ideal_conductance_change: 
 %
-% Models a ideal memristor. 
+% Models a Non_Ideal ideal memristor. 
 
 
 % Copyright 2005-2008 The MathWorks, Inc.
@@ -11,8 +11,8 @@ component Memristor_ideal
   end
 
   parameters
-    G1  = {0.9999, 'S' };     % G1 
-    G0 = {0.0001 ,'S'};       % G0
+    G1  = {0.00004479, 'S' };     % G1 
+    G0 = {0.000003062 ,'S'};       % G0
     v_off = { 1 ,'V'};        % Voff+
     v_on = {  -1 ,'V'};       % Von-
     w0 = { 0, '1' };          % winit
