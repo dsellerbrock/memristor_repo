@@ -1,0 +1,2 @@
+[submodule "Matlab-Simulink/Frameworks/pyrenn"]
+	url = https://github.com/yabata/pyrenn.git
