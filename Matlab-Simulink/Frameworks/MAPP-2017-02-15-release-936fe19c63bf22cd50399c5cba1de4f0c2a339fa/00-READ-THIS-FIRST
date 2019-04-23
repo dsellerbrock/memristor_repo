@@ -1,0 +1,40 @@
+1. If you have not done so already, untar the MAPP tarball
+   (MAPP-2017-02-15-release-936fe19c63bf22cd50399c5cba1de4f0c2a339fa-release-snapshot-2017-02-17-0715.tgz
+    or
+    MAPP-2017-02-15-release-936fe19c63bf22cd50399c5cba1de4f0c2a339fa.tgz)
+   somewhere (say under /where/ever/, ie, creating
+   /where/ever/MAPP-2017-02-15-release-936fe19c63bf22cd50399c5cba1de4f0c2a339fa/).
+
+2. Edit the file start_MAPP.m in
+   /where/ever/MAPP-2017-02-15-release-936fe19c63bf22cd50399c5cba1de4f0c2a339fa/
+   and change the definition of basedir (first line) to:
+     '/where/ever/MAPP-2017-02-15-release-936fe19c63bf22cd50399c5cba1de4f0c2a339fa/'.
+
+3. To load MAPP in MATLAB, copy or link
+   /where/ever/MAPP-2017-02-15-release-936fe19c63bf22cd50399c5cba1de4f0c2a339fa/start_MAPP.m
+   into a directory in MATLAB's search path (eg, ~/Documents/MATLAB/).
+   After starting MATLAB, just type
+       start_MAPP
+   at the MATLAB prompt and MAPP will get loaded.
+
+   It can be convenient to auto-start MAPP whenever MATLAB is started.
+   To do this, copy, link or include
+   /where/ever/MAPP-2017-02-15-release-936fe19c63bf22cd50399c5cba1de4f0c2a339fa/start_MAPP.m
+   to/in a file named (exactly) startup.m in MATLAB's search path
+   (eg, ~/Documents/MATLAB/startup.m). MAPP should then auto-load
+   whenever MATLAB is started.
+
+   You can also load MAPP when starting MATLAB via the command line, thus:
+     matlab -r "cd /where/ever/MAPP-2017-02-15-release-936fe19c63bf22cd50399c5cba1de4f0c2a339fa/; start_MAPP;"
+
+4. Start MATLAB and load MAPP (as in 3. above). Then test it if you like:
+   > run_BJTdiffpair_DCsweep % a quick test, should produce a tanh() 
+   > MAPPtest_quick
+   > MAPPtest % takes about 10m
+   % the following are not maintained regularly and might not work:
+   > run_ALL_A1oDAEAPI_tests % this takes a long time
+   > run_ALL_A2oDAEAPI_tests % if you have access to the A2oDAEAPI submodule
+   > run_ALL_A3oDAEAPI_tests % if you have access to the A3oDAEAPI submodule
+
+5. To use MAPP, start with: 
+   > help MAPP
