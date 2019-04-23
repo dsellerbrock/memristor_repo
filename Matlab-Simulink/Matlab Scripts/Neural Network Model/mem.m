@@ -1,3 +1,4 @@
+addpath('../../Frameworks/pyrenn/matlab')
 %%
 %Read Example Data
 file = 'MEM_data.xlsx';
