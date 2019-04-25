@@ -1,0 +1,297 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/simulation/modelsim
+Elpm_constant0
+Z1 w1555605817
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/lpm_constant0.vhd
+Z5 FC:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/lpm_constant0.vhd
+l0
+L63
+V1OPo2S[c3c>a1Rd3z=MOo1
+!s100 CoE=<hK>F8ZDUzekM]jfi1
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1556129149
+!i10b 1
+Z8 !s108 1556129149.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/lpm_constant0.vhd|
+Z10 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/lpm_constant0.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+DEx4 work 13 lpm_constant0 0 22 1OPo2S[c3c>a1Rd3z=MOo1
+l83
+L71
+V<G=zRF[71V?P?77IJFTkf3
+!s100 a^XN;Y@37jTdJX8[<?Nc`1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Elpm_constant0_lpm_constant_r09
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L43
+VC`@`nJg?h3D36`PzFPE[O1
+!s100 BOWJgd1]Ni@i]EDN405=X3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 30 lpm_constant0_lpm_constant_r09 0 22 C`@`nJg?h3D36`PzFPE[O1
+l52
+L50
+VI@O^D2oT9gz9_jXSE00@^0
+!s100 _FJ=AM6[SUV1JiohJS7`:3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Emux_2_to_1
+Z13 w1555605121
+R2
+R3
+R0
+Z14 8C:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/Mux_2_to_1.vhd
+Z15 FC:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/Mux_2_to_1.vhd
+l0
+L4
+V82IJBIA]WP3@YH2UV=a@P2
+!s100 ]DCiCR2[]0`TUDl9`D0km2
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/Mux_2_to_1.vhd|
+Z17 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/Mux_2_to_1.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 10 mux_2_to_1 0 22 82IJBIA]WP3@YH2UV=a@P2
+l14
+L13
+Vf58aC@OLO[KEE;Hbz;C@E2
+!s100 86BzMkc@L6Ted><:P4L`U3
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Eregister_file
+Z18 w1556068587
+Z19 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z20 8C:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/32bit_reg.vhd
+Z21 FC:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/32bit_reg.vhd
+l0
+L5
+VR>c<A]oe^?z?jijnn_ghU3
+!s100 igTN@[:QXm>kRKh6PYbb63
+R6
+31
+R7
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-93|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/32bit_reg.vhd|
+Z23 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/32bit_reg.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R19
+R2
+R3
+DEx4 work 13 register_file 0 22 R>c<A]oe^?z?jijnn_ghU3
+l20
+L17
+V`GGU^N5WDQ3S`<QldO[NO1
+!s100 :zNfUWPUW5n<i7K02NDc?0
+R6
+31
+R7
+!i10b 1
+R8
+R22
+R23
+!i113 1
+R11
+R12
+Esubtractor_source
+Z24 w1555605694
+Z25 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z26 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R2
+R3
+R0
+Z27 8C:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/subtractor.vhd
+Z28 FC:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/subtractor.vhd
+l0
+L12
+VZkd9A]6Xh2AP]eh@HkoSo3
+!s100 3=[TM0=_GkGN4AHko=33C2
+R6
+31
+R7
+!i10b 1
+R8
+Z29 !s90 -reportprogress|300|-93|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/subtractor.vhd|
+Z30 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/subtractor.vhd|
+!i113 1
+R11
+R12
+Adataflow
+R25
+R26
+R2
+R3
+DEx4 work 17 subtractor_source 0 22 Zkd9A]6Xh2AP]eh@HkoSo3
+l25
+L22
+VODX`FQ0E`FM2BMf1M][1A0
+!s100 _i_43c6kJ_I4k6eFnZ]=J2
+R6
+31
+R7
+!i10b 1
+R8
+R29
+R30
+!i113 1
+R11
+R12
+Evhdl_binary_comparator
+Z31 w1555604228
+R25
+R26
+R2
+R3
+R0
+Z32 8C:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/comparator.vhd
+Z33 FC:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/comparator.vhd
+l0
+L6
+VWXNI3k>ciJTPDe6:Lj9Tc2
+!s100 JWj:f1=fK:f9NnfEQNY3o1
+R6
+31
+Z34 !s110 1556129150
+!i10b 1
+R8
+Z35 !s90 -reportprogress|300|-93|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/comparator.vhd|
+Z36 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/comparator.vhd|
+!i113 1
+R11
+R12
+Abhv
+R25
+R26
+R2
+R3
+DEx4 work 22 vhdl_binary_comparator 0 22 WXNI3k>ciJTPDe6:Lj9Tc2
+l14
+L13
+VoaK@MGJ0Kj<lWa08T3dEO0
+!s100 26==ZQH4E;Yc`CnKAT0@a3
+R6
+31
+R34
+!i10b 1
+R8
+R35
+R36
+!i113 1
+R11
+R12
+Evhdl_twobit_binary_comparator
+R31
+R25
+R26
+R2
+R3
+R0
+Z37 8C:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/comparator_2bit.vhd
+Z38 FC:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/comparator_2bit.vhd
+l0
+L6
+VKzDcG=8g^O7@lAFPI2b1D1
+!s100 in_KK1`Y_VN?DaPSHP0Ck0
+R6
+31
+R7
+!i10b 1
+R8
+Z39 !s90 -reportprogress|300|-93|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/comparator_2bit.vhd|
+Z40 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/comparator_2bit.vhd|
+!i113 1
+R11
+R12
+Abhv
+R25
+R26
+R2
+R3
+DEx4 work 29 vhdl_twobit_binary_comparator 0 22 KzDcG=8g^O7@lAFPI2b1D1
+l14
+L13
+V[ZFF1C<6>EQ]WVkJa093V1
+!s100 n6YZPa9^a>T[GhTgBEGCD2
+R6
+31
+R7
+!i10b 1
+R8
+R39
+R40
+!i113 1
+R11
+R12
