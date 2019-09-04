@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/poker/Documents/Projects/Research/memristor-repo/dds_test/simulation/modelsim
+Edds_sine
+Z1 w1556673811
+Z2 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8C:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/dds_sine.vhd
+Z7 FC:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/dds_sine.vhd
+l0
+L5
+Vfnae7I5me9Bl@D>5ob5fe3
+!s100 7Y;X6`bz;FF8kA3BPR2gj3
+Z8 OV;C;10.5b;63
+31
+Z9 !s110 1556829964
+!i10b 1
+Z10 !s108 1556829964.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/dds_sine.vhd|
+Z12 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/Memristor FPGA/dds_sine.vhd|
+!i113 1
+Z13 o-93 -work work
+Z14 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+R5
+DEx4 work 8 dds_sine 0 22 fnae7I5me9Bl@D>5ob5fe3
+l60
+L14
+V[T577Jm3o@ihKDTfnW^4o0
+!s100 l]ZmThSfJFm@O1JYV`[RF3
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Esine_testbench
+Z15 w1556725346
+R2
+R3
+R4
+R5
+R0
+Z16 8C:/Users/poker/Documents/Projects/Research/memristor-repo/dds_test/Sine_testbench.vhd
+Z17 FC:/Users/poker/Documents/Projects/Research/memristor-repo/dds_test/Sine_testbench.vhd
+l0
+L5
+V`]BOUJ3M@nnJ`Nk5MJ>ME2
+!s100 c[0CH6@onLzT=zfV8>6972
+R8
+32
+Z18 !s110 1556829976
+!i10b 1
+Z19 !s108 1556829976.000000
+Z20 !s90 -reportprogress|300|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/dds_test/Sine_testbench.vhd|
+Z21 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/dds_test/Sine_testbench.vhd|
+!i113 1
+Z22 o-work work
+R14
+Atest
+R2
+R3
+R4
+R5
+Z23 DEx4 work 14 sine_testbench 0 22 `]BOUJ3M@nnJ`Nk5MJ>ME2
+l23
+L8
+VGK>6UL3fWzY1SN6EW?C023
+!s100 Sg:5OzEM[]ii1fG8eYTz33
+R8
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R22
+R14

@@ -1,5 +1,5 @@
 Flow report for TEST
-Wed Apr 24 14:02:49 2019
+Sun May 05 18:40:03 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,22 +40,22 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Wed Apr 24 14:02:49 2019       ;
+; Flow Status                        ; Flow Failed - Sun May 05 18:40:03 2019      ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; TEST                                        ;
-; Top-level Entity Name              ; Memristor_Model                             ;
+; Top-level Entity Name              ; MEMRIST                                     ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE22F17C6                                ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 9 / 22,320 ( < 1 % )                        ;
-;     Total combinational functions  ; 3 / 22,320 ( < 1 % )                        ;
-;     Dedicated logic registers      ; 8 / 22,320 ( < 1 % )                        ;
-; Total registers                    ; 8                                           ;
-; Total pins                         ; 134 / 154 ( 87 % )                          ;
-; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 0 / 608,256 ( 0 % )                         ;
-; Embedded Multiplier 9-bit elements ; 0 / 132 ( 0 % )                             ;
-; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
+; Total logic elements               ; N/A until Partition Merge                   ;
+;     Total combinational functions  ; N/A until Partition Merge                   ;
+;     Dedicated logic registers      ; N/A until Partition Merge                   ;
+; Total registers                    ; N/A until Partition Merge                   ;
+; Total pins                         ; N/A until Partition Merge                   ;
+; Total virtual pins                 ; N/A until Partition Merge                   ;
+; Total memory bits                  ; N/A until Partition Merge                   ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                   ;
+; Total PLLs                         ; N/A until Partition Merge                   ;
 +------------------------------------+---------------------------------------------+
 
 
@@ -64,32 +64,56 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/24/2019 14:02:10 ;
+; Start date & time ; 05/05/2019 18:39:50 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; TEST                ;
 +-------------------+---------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                ;
-+-------------------------------------+----------------------------------------+---------------+-----------------+----------------+
-; Assignment Name                     ; Value                                  ; Default Value ; Entity Name     ; Section Id     ;
-+-------------------------------------+----------------------------------------+---------------+-----------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 91770213122.155613253019192            ; --            ; --              ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --              ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>        ; --              ; --             ;
-; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --              ; eda_simulation ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --              ; --             ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --              ; --             ;
-; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                   ; --            ; --              ; --             ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; Memristor_Model ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; Memristor_Model ; Top            ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; Memristor_Model ; Top            ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --              ; --             ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --              ; --             ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --              ; --             ;
-; TOP_LEVEL_ENTITY                    ; Memristor_Model                        ; TEST          ; --              ; --             ;
-+-------------------------------------+----------------------------------------+---------------+-----------------+----------------+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                            ;
++-------------------------------------+----------------------------------------+---------------+-------------+----------------+
+; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
++-------------------------------------+----------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 91770213122.155709959004184            ; --            ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>        ; --          ; --             ;
+; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant0.bsf                      ; --            ; --          ; --             ;
+; MISC_FILE                           ; lpm_constant0.cmp                      ; --            ; --          ; --             ;
+; MISC_FILE                           ; myConvert.bsf                          ; --            ; --          ; --             ;
+; MISC_FILE                           ; myConvert_inst.vhd                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; myConvert.inc                          ; --            ; --          ; --             ;
+; MISC_FILE                           ; myConvert.cmp                          ; --            ; --          ; --             ;
+; MISC_FILE                           ; mymult1.bsf                            ; --            ; --          ; --             ;
+; MISC_FILE                           ; mymult1_inst.vhd                       ; --            ; --          ; --             ;
+; MISC_FILE                           ; mymult1.inc                            ; --            ; --          ; --             ;
+; MISC_FILE                           ; mymult1.cmp                            ; --            ; --          ; --             ;
+; MISC_FILE                           ; constDAC.cmp                           ; --            ; --          ; --             ;
+; MISC_FILE                           ; constDAC2.cmp                          ; --            ; --          ; --             ;
+; MISC_FILE                           ; myConvert2.bsf                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; myConvert2_inst.vhd                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; myConvert2.inc                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; myConvert2.cmp                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; divider2.bsf                           ; --            ; --          ; --             ;
+; MISC_FILE                           ; divider2.cmp                           ; --            ; --          ; --             ;
+; MISC_FILE                           ; shift_regin32.bsf                      ; --            ; --          ; --             ;
+; MISC_FILE                           ; shift_regin32.cmp                      ; --            ; --          ; --             ;
+; MISC_FILE                           ; shift_reg32.bsf                        ; --            ; --          ; --             ;
+; MISC_FILE                           ; shift_reg32.cmp                        ; --            ; --          ; --             ;
+; MISC_FILE                           ; SUB32.bsf                              ; --            ; --          ; --             ;
+; MISC_FILE                           ; SUB32.cmp                              ; --            ; --          ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                   ; --            ; --          ; --             ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; MEMRIST     ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; MEMRIST     ; Top            ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; MEMRIST     ; Top            ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --          ; --             ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --             ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --          ; --             ;
+; TOP_LEVEL_ENTITY                    ; MEMRIST                                ; TEST          ; --          ; --             ;
++-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -97,12 +121,8 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:18     ; 1.0                     ; 4864 MB             ; 00:00:32                           ;
-; Fitter               ; 00:00:09     ; 1.0                     ; 5587 MB             ; 00:00:12                           ;
-; Assembler            ; 00:00:02     ; 1.0                     ; 4691 MB             ; 00:00:01                           ;
-; Timing Analyzer      ; 00:00:02     ; 1.0                     ; 4806 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4653 MB             ; 00:00:01                           ;
-; Total                ; 00:00:32     ; --                      ; --                  ; 00:00:48                           ;
+; Analysis & Synthesis ; 00:00:13     ; 1.0                     ; 4783 MB             ; 00:00:27                           ;
+; Total                ; 00:00:13     ; --                      ; --                  ; 00:00:27                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -112,10 +132,6 @@ refer to the applicable agreement for further details.
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
 ; Analysis & Synthesis ; LAPTOP-UFQEEKLC  ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; LAPTOP-UFQEEKLC  ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; LAPTOP-UFQEEKLC  ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; LAPTOP-UFQEEKLC  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; LAPTOP-UFQEEKLC  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -123,10 +139,6 @@ refer to the applicable agreement for further details.
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off TEST -c TEST
-quartus_fit --read_settings_files=off --write_settings_files=off TEST -c TEST
-quartus_asm --read_settings_files=off --write_settings_files=off TEST -c TEST
-quartus_sta TEST -c TEST
-quartus_eda --read_settings_files=off --write_settings_files=off TEST -c TEST
 
 
 

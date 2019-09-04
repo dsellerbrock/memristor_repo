@@ -1,0 +1,10 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -2008 -work work {C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/dds_sine.vhd}
+vcom -2008 -work work {C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/myConvert.vhd}
+

@@ -1,0 +1,190 @@
+--altfp_convert CBX_DECLARE_ALL_CONNECTED_PORTS="OFF" DEVICE_FAMILY="Cyclone IV E" OPERATION="INT2FLOAT" ROUNDING="TO_NEAREST" WIDTH_DATA=13 WIDTH_EXP_OUTPUT=11 WIDTH_INT=13 WIDTH_MAN_OUTPUT=52 WIDTH_RESULT=64 clock dataa result CARRY_CHAIN="MANUAL" CARRY_CHAIN_LENGTH=48
+--VERSION_BEGIN 18.1 cbx_altbarrel_shift 2018:09:12:13:04:24:SJ cbx_altera_syncram_nd_impl 2018:09:12:13:04:24:SJ cbx_altfp_convert 2018:09:12:13:04:24:SJ cbx_altpriority_encoder 2018:09:12:13:04:24:SJ cbx_altsyncram 2018:09:12:13:04:24:SJ cbx_cycloneii 2018:09:12:13:04:24:SJ cbx_lpm_abs 2018:09:12:13:04:24:SJ cbx_lpm_add_sub 2018:09:12:13:04:24:SJ cbx_lpm_compare 2018:09:12:13:04:24:SJ cbx_lpm_decode 2018:09:12:13:04:24:SJ cbx_lpm_divide 2018:09:12:13:04:24:SJ cbx_lpm_mux 2018:09:12:13:04:24:SJ cbx_mgl 2018:09:12:13:10:36:SJ cbx_nadder 2018:09:12:13:04:24:SJ cbx_stratix 2018:09:12:13:04:24:SJ cbx_stratixii 2018:09:12:13:04:24:SJ cbx_stratixiii 2018:09:12:13:04:24:SJ cbx_stratixv 2018:09:12:13:04:24:SJ cbx_util_mgl 2018:09:12:13:04:24:SJ  VERSION_END
+
+
+-- Copyright (C) 2018  Intel Corporation. All rights reserved.
+--  Your use of Intel Corporation's design tools, logic functions 
+--  and other software and tools, and its AMPP partner logic 
+--  functions, and any output files from any of the foregoing 
+--  (including device programming or simulation files), and any 
+--  associated documentation or information are expressly subject 
+--  to the terms and conditions of the Intel Program License 
+--  Subscription Agreement, the Intel Quartus Prime License Agreement,
+--  the Intel FPGA IP License Agreement, or other applicable license
+--  agreement, including, without limitation, that your use is for
+--  the sole purpose of programming logic devices manufactured by
+--  Intel and sold by Intel or its authorized distributors.  Please
+--  refer to the applicable agreement for further details.
+
+
+FUNCTION altbarrel_shift_gdh (aclr, clk_en, clock, data[12..0], distance[3..0])
+RETURNS ( result[12..0]);
+FUNCTION altpriority_encoder_gp7 (data[15..0])
+RETURNS ( q[3..0]);
+
+--synthesis_resources = lut 35 reg 183 
+SUBDESIGN altfp_convert_cvo
+( 
+	clock	:	input;
+	dataa[12..0]	:	input;
+	result[63..0]	:	output;
+) 
+VARIABLE 
+	altbarrel_shift5 : altbarrel_shift_gdh;
+	altpriority_encoder2 : altpriority_encoder_gp7;
+	exponent_bus_pre_reg[10..0] : dffe;
+	exponent_bus_pre_reg2a[10..0] : dffe;
+	exponent_bus_pre_reg3a[10..0] : dffe;
+	mag_int_a_reg[11..0] : dffe;
+	mag_int_a_reg2a[11..0] : dffe;
+	mantissa_pre_round_reg[52..0] : dffe;
+	priority_encoder_reg[3..0] : dffe;
+	result_reg[63..0] : dffe;
+	sign_int_a_reg1 : dffe;
+	sign_int_a_reg2 : dffe;
+	sign_int_a_reg3 : dffe;
+	sign_int_a_reg4 : dffe;
+	sign_int_a_reg5 : dffe;
+	add_sub1_dataa[11..0]	:	WIRE;
+	add_sub1_datab[11..0]	:	WIRE;
+	add_sub1_result[11..0]	:	WIRE;
+	add_sub3_dataa[10..0]	:	WIRE;
+	add_sub3_datab[10..0]	:	WIRE;
+	add_sub3_result[10..0]	:	WIRE;
+	cmpr4_alb_int	:	WIRE;
+	cmpr4_alb	:	WIRE;
+	cmpr4_dataa[10..0]	:	WIRE;
+	cmpr4_datab[10..0]	:	WIRE;
+	aclr	: NODE;
+	bias_value_w[10..0]	: WIRE;
+	clk_en	: NODE;
+	const_bias_value_add_width_int_w[10..0]	: WIRE;
+	exceptions_value[10..0]	: WIRE;
+	exponent_bus[10..0]	: WIRE;
+	exponent_bus_pre[10..0]	: WIRE;
+	exponent_output_w[10..0]	: WIRE;
+	exponent_rounded[10..0]	: WIRE;
+	exponent_zero_w[10..0]	: WIRE;
+	int_a[11..0]	: WIRE;
+	int_a_2s[11..0]	: WIRE;
+	invert_int_a[11..0]	: WIRE;
+	leading_zeroes[3..0]	: WIRE;
+	mag_int_a[11..0]	: WIRE;
+	mantissa_bus[51..0]	: WIRE;
+	mantissa_pre_round[52..0]	: WIRE;
+	mantissa_rounded[52..0]	: WIRE;
+	max_neg_value_selector	: WIRE;
+	max_neg_value_w[10..0]	: WIRE;
+	minus_leading_zero[10..0]	: WIRE;
+	prio_mag_int_a[12..0]	: WIRE;
+	priority_pad_one_w[2..0]	: WIRE;
+	result_w[63..0]	: WIRE;
+	shifted_mag_int_a[11..0]	: WIRE;
+	sign_bus	: WIRE;
+	sign_int_a	: WIRE;
+	zero_padding_w[6..0]	: WIRE;
+
+BEGIN 
+	altbarrel_shift5.aclr = aclr;
+	altbarrel_shift5.clk_en = clk_en;
+	altbarrel_shift5.clock = clock;
+	altbarrel_shift5.data[] = ( B"0", mag_int_a_reg2a[].q);
+	altbarrel_shift5.distance[] = leading_zeroes[];
+	altpriority_encoder2.data[] = ( prio_mag_int_a[], priority_pad_one_w[]);
+	exponent_bus_pre_reg[].clk = clock;
+	exponent_bus_pre_reg[].clrn = (! aclr);
+	exponent_bus_pre_reg[].d = exponent_bus_pre_reg2a[].q;
+	exponent_bus_pre_reg[].ena = clk_en;
+	exponent_bus_pre_reg2a[].clk = clock;
+	exponent_bus_pre_reg2a[].clrn = (! aclr);
+	exponent_bus_pre_reg2a[].d = exponent_bus_pre_reg3a[].q;
+	exponent_bus_pre_reg2a[].ena = clk_en;
+	exponent_bus_pre_reg3a[].clk = clock;
+	exponent_bus_pre_reg3a[].clrn = (! aclr);
+	exponent_bus_pre_reg3a[].d = exponent_bus_pre[];
+	exponent_bus_pre_reg3a[].ena = clk_en;
+	mag_int_a_reg[].clk = clock;
+	mag_int_a_reg[].clrn = (! aclr);
+	mag_int_a_reg[].d = mag_int_a[];
+	mag_int_a_reg[].ena = clk_en;
+	mag_int_a_reg2a[].clk = clock;
+	mag_int_a_reg2a[].clrn = (! aclr);
+	mag_int_a_reg2a[].d = mag_int_a_reg[].q;
+	mag_int_a_reg2a[].ena = clk_en;
+	mantissa_pre_round_reg[].clk = clock;
+	mantissa_pre_round_reg[].clrn = (! aclr);
+	mantissa_pre_round_reg[].d = mantissa_pre_round[];
+	mantissa_pre_round_reg[].ena = clk_en;
+	priority_encoder_reg[].clk = clock;
+	priority_encoder_reg[].clrn = (! aclr);
+	priority_encoder_reg[].d = altpriority_encoder2.q[];
+	priority_encoder_reg[].ena = clk_en;
+	result_reg[].clk = clock;
+	result_reg[].clrn = (! aclr);
+	result_reg[].d = result_w[];
+	result_reg[].ena = clk_en;
+	sign_int_a_reg1.clk = clock;
+	sign_int_a_reg1.clrn = (! aclr);
+	sign_int_a_reg1.d = sign_int_a;
+	sign_int_a_reg1.ena = clk_en;
+	sign_int_a_reg2.clk = clock;
+	sign_int_a_reg2.clrn = (! aclr);
+	sign_int_a_reg2.d = sign_int_a_reg1.q;
+	sign_int_a_reg2.ena = clk_en;
+	sign_int_a_reg3.clk = clock;
+	sign_int_a_reg3.clrn = (! aclr);
+	sign_int_a_reg3.d = sign_int_a_reg2.q;
+	sign_int_a_reg3.ena = clk_en;
+	sign_int_a_reg4.clk = clock;
+	sign_int_a_reg4.clrn = (! aclr);
+	sign_int_a_reg4.d = sign_int_a_reg3.q;
+	sign_int_a_reg4.ena = clk_en;
+	sign_int_a_reg5.clk = clock;
+	sign_int_a_reg5.clrn = (! aclr);
+	sign_int_a_reg5.d = sign_int_a_reg4.q;
+	sign_int_a_reg5.ena = clk_en;
+	add_sub1_result[] = add_sub1_dataa[] + add_sub1_datab[];
+	add_sub1_dataa[] = invert_int_a[];
+	add_sub1_datab[] = B"000000000001";
+	add_sub3_result[] = add_sub3_dataa[] - add_sub3_datab[];
+	add_sub3_dataa[] = const_bias_value_add_width_int_w[];
+	add_sub3_datab[] = minus_leading_zero[];
+	IF (cmpr4_dataa[] < cmpr4_datab[]) THEN
+		cmpr4_alb_int = VCC;
+	ELSE
+		cmpr4_alb_int = GND;
+	END IF;
+	cmpr4_alb = cmpr4_alb_int;
+	cmpr4_dataa[] = exponent_output_w[];
+	cmpr4_datab[] = bias_value_w[];
+	aclr = GND;
+	bias_value_w[] = B"01111111111";
+	clk_en = VCC;
+	const_bias_value_add_width_int_w[] = B"10000001010";
+	exceptions_value[] = (((! max_neg_value_selector) & exponent_zero_w[]) # (max_neg_value_selector & max_neg_value_w[]));
+	exponent_bus[] = exponent_rounded[];
+	exponent_bus_pre[] = (((! cmpr4_alb) & exponent_output_w[]) # (cmpr4_alb & exceptions_value[]));
+	exponent_output_w[] = add_sub3_result[];
+	exponent_rounded[] = exponent_bus_pre_reg[].q;
+	exponent_zero_w[] = B"00000000000";
+	int_a[11..0] = dataa[11..0];
+	int_a_2s[] = add_sub1_result[];
+	invert_int_a[] = (! int_a[]);
+	leading_zeroes[] = (! priority_encoder_reg[].q);
+	mag_int_a[] = (((! sign_int_a) & int_a[]) # (sign_int_a & int_a_2s[]));
+	mantissa_bus[51..0] = mantissa_rounded[51..0];
+	mantissa_pre_round[] = ( shifted_mag_int_a[11..0], B"00000000000000000000000000000000000000000");
+	mantissa_rounded[] = mantissa_pre_round_reg[].q;
+	max_neg_value_selector = (cmpr4_alb & sign_int_a_reg2.q);
+	max_neg_value_w[] = B"10000001011";
+	minus_leading_zero[] = ( zero_padding_w[], leading_zeroes[]);
+	prio_mag_int_a[] = ( mag_int_a_reg[].q, B"1");
+	priority_pad_one_w[] = B"111";
+	result[] = result_reg[].q;
+	result_w[] = ( sign_bus, exponent_bus[], mantissa_bus[]);
+	shifted_mag_int_a[11..0] = altbarrel_shift5.result[11..0];
+	sign_bus = sign_int_a_reg5.q;
+	sign_int_a = dataa[12..12];
+	zero_padding_w[] = B"0000000";
+END;
+--VALID FILE

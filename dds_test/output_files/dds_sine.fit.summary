@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu May 02 17:17:23 2019
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : dds_sine
+Top-level Entity Name : dds_sine
+Family : Cyclone IV E
+Device : EP4CE6F17C6
+Timing Models : Final
+Total logic elements : 127 / 6,272 ( 2 % )
+    Total combinational functions : 33 / 6,272 ( < 1 % )
+    Dedicated logic registers : 110 / 6,272 ( 2 % )
+Total registers : 110
+Total pins : 81 / 180 ( 45 % )
+Total virtual pins : 0
+Total memory bits : 114,688 / 276,480 ( 41 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

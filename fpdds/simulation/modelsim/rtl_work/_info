@@ -1,0 +1,3409 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/simulation/modelsim
+Eabsolutely
+Z1 w1557249246
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/absolutely.vhd
+Z5 FC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/absolutely.vhd
+l0
+L68
+V[e5k>M3Hc4@:AKofBK:[[0
+!s100 ]aD1Lid0>NNRH92e^m4;L0
+Z6 OV;C;10.5b;63
+33
+Z7 !s110 1557483258
+!i10b 1
+Z8 !s108 1557483258.000000
+Z9 !s90 -reportprogress|300|-2008|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/absolutely.vhd|
+Z10 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/absolutely.vhd|
+!i113 1
+Z11 o-2008 -work work
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+DEx4 work 10 absolutely 0 22 [e5k>M3Hc4@:AKofBK:[[0
+l90
+L77
+VAGB9GB1g==;?KOYMZUn472
+!s100 W1H8W]N^7lmVUlZefU7530
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eabsolutely_altfp_abs_t0a
+R1
+R2
+R3
+R0
+R4
+R5
+l0
+L43
+VTYFKkA?mEG?Z=d84WNA;F0
+!s100 ezZ@MbYlLC5JU4Hc?Jj=Y1
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 24 absolutely_altfp_abs_t0a 0 22 TYFKkA?mEG?Z=d84WNA;F0
+l55
+L51
+VgNRo7k:Qa9AIlQZDZVZ2V0
+!s100 Q8FlO6c?AJGX;[MaN9_h@3
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eadd32
+Z13 w1557246820
+R2
+R3
+R0
+Z14 8C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/add32.vhd
+Z15 FC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/add32.vhd
+l0
+L4761
+VUc50PCSN35H?8lbm`X5@c2
+!s100 M?`maFVlEC@XUXG33Kd<Z0
+R6
+33
+R7
+!i10b 1
+Z16 !s108 1557483257.000000
+Z17 !s90 -reportprogress|300|-2008|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/add32.vhd|
+Z18 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/add32.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 5 add32 0 22 Uc50PCSN35H?8lbm`X5@c2
+l4787
+L4772
+VdJF8FJ1LK[aIKAhbZRR`11
+!s100 fC5<S53D5Q5lb9C];Ab]Z0
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Eadd32_altbarrel_shift_35e
+R13
+R2
+R3
+R0
+R14
+R15
+l0
+L47
+V:?@eKU5zgSIc^QZL:]45J0
+!s100 Q`Lo3zGFZf^CZVUNB1QI92
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 25 add32_altbarrel_shift_35e 0 22 :?@eKU5zgSIc^QZL:]45J0
+l148
+L59
+V<BOAZPTJ9=OA7KbN7GKl<3
+!s100 =Z@OEzWImR[moOma>kPWl1
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Eadd32_altbarrel_shift_olb
+R13
+R2
+R3
+R0
+R14
+R15
+l0
+L305
+V>23bnL4^]J@XfIS10Z7n22
+!s100 dN6OJPkFQ[;MC<amKg9L`3
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 25 add32_altbarrel_shift_olb 0 22 >23bnL4^]J@XfIS10Z7n22
+l392
+L314
+Vamn[bD_JBC=?YS:FDNch82
+!s100 YGH[1z?<0cHmCSI;OKM[b0
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Eadd32_altfp_add_sub_55j
+R13
+R2
+R3
+R0
+R14
+R15
+l0
+Z19 L1535
+V:Do5o69^?d@9JzER?oD6X2
+!s100 Ahg47fhj9[a0CfQB>3;WR0
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 23 add32_altfp_add_sub_55j 0 22 :Do5o69^?d@9JzER?oD6X2
+l2937
+Z20 L1545
+V8jcF_gh5M<zSX7oQf>fh;3
+!s100 ?V:2mTRdeKKhPMKn66kFE2
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Eadd32_altpriority_encoder_3e8
+R13
+R2
+R3
+R0
+R14
+R15
+l0
+L548
+V88Y@7MPnReSOAYgOdD8];2
+!s100 [BF8TkRkD4^L25z=1O5Gf3
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 add32_altpriority_encoder_3e8 0 22 88Y@7MPnReSOAYgOdD8];2
+l559
+L557
+V]8G8ddPf2ekR@XQcCEYJ30
+!s100 T=:_<E@d9iN46GH9bYe4j3
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Eadd32_altpriority_encoder_3v7
+R13
+R2
+R3
+R0
+R14
+R15
+l0
+L696
+V]KXMn6OgNGjKCO<>I]67O1
+!s100 `FY8<Y;jDV1jcOzR>iL:a3
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 add32_altpriority_encoder_3v7 0 22 ]KXMn6OgNGjKCO<>I]67O1
+l706
+L704
+VA`]RF23?h@[;gNjQ5oL?F1
+!s100 jE`KKj0QT5FeJ;>iEDU?83
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Eadd32_altpriority_encoder_6e8
+R13
+R2
+R3
+R0
+R14
+R15
+l0
+L570
+VzPaLDMoUakc4h`==JaKJJ1
+!s100 Mjcij4[C9lY@@`5Rf^AHc3
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 add32_altpriority_encoder_6e8 0 22 zPaLDMoUakc4h`==JaKJJ1
+l597
+L579
+VlO[GK7SNcQ8?4eN0hDz8C2
+!s100 RT<>gYc30CSAfD:VM0nm`3
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Eadd32_altpriority_encoder_6v7
+R13
+R2
+R3
+R0
+R14
+R15
+l0
+L716
+VY70fjfo6K]6XofJl??M;m1
+!s100 9J:=K:zc82ZU2Fi;5cL1L0
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 add32_altpriority_encoder_6v7 0 22 Y70fjfo6K]6XofJl??M;m1
+l748
+L724
+VIJ9CU77]NX9oDlQQNc[CH1
+!s100 ^hi5PMjWg9:EPM`79<77;3
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Eadd32_altpriority_encoder_be8
+R13
+R2
+R3
+R0
+R14
+R15
+l0
+L624
+VD^YZ9z2?iWj^<W1MV]5GK3
+!s100 1cG4?Um:D[Lj^27cFK_i]0
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 add32_altpriority_encoder_be8 0 22 D^YZ9z2?iWj^<W1MV]5GK3
+l651
+L633
+V>_QICk^V86]zD3jLN`Jz:0
+!s100 O3cTnaF@3XDQXgXm:X3iB1
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Eadd32_altpriority_encoder_bv7
+R13
+R2
+R3
+R0
+R14
+R15
+l0
+L773
+V9Ph34o=nM<7:BJH@9]zM`2
+!s100 R50L`nn@O`O3BUFk8b2LB1
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 add32_altpriority_encoder_bv7 0 22 9Ph34o=nM<7:BJH@9]zM`2
+l805
+L781
+V2@TOF6PXS^cP;GH^F`6D?2
+!s100 9_Fh_O56o;Aa_GXHm@M171
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Eadd32_altpriority_encoder_e48
+R13
+R2
+R3
+R0
+R14
+R15
+l0
+Z21 L1469
+Vfe2e>nF^:70]kQ4kSa;Yk2
+!s100 Yo=?a9Fb4Y9RbaQ]M6oBX3
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 add32_altpriority_encoder_e48 0 22 fe2e>nF^:70]kQ4kSa;Yk2
+Z22 l1501
+Z23 L1477
+VKD_W12I4?A5JcTG3AXUij1
+!s100 Z9]I`n<UV24IeWkbY^8301
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Eadd32_altpriority_encoder_f48
+R13
+R2
+R3
+R0
+R14
+R15
+l0
+Z24 L1406
+V@aa85W=T5=Za^Y]jN=cTX3
+!s100 JAXJhd@B0la29[`l<6JYk1
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 add32_altpriority_encoder_f48 0 22 @aa85W=T5=Za^Y]jN=cTX3
+Z25 l1438
+Z26 L1414
+VOcNKYRFLHid6`>JjMJAeM2
+!s100 2[f68Ieca2L6WVK>?jCY^3
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Eadd32_altpriority_encoder_fj8
+R13
+R2
+R3
+R0
+R14
+R15
+l0
+Z27 L1186
+VI_GW7HKEK8XnR>EhiW3e<0
+!s100 6NoBQ820G;LQiES]FDQAA0
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 add32_altpriority_encoder_fj8 0 22 I_GW7HKEK8XnR>EhiW3e<0
+Z28 l1213
+Z29 L1195
+VSjSVaHjJW^dHl;A285m>n3
+!s100 FQ:0n:NaeDdazZTNnHCih0
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Eadd32_altpriority_encoder_n28
+R13
+R2
+R3
+R0
+R14
+R15
+l0
+Z30 L1262
+V6alG0RK[>`^hQ<F8W[5M;0
+!s100 J?3]3ZIUkZQ4QF73=MfGk2
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 add32_altpriority_encoder_n28 0 22 6alG0RK[>`^hQ<F8W[5M;0
+Z31 l1274
+Z32 L1270
+V1zA[1d^>:CP@5?KB:]EEL1
+!s100 efK7YPLYUliDZde]ca@aO0
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Eadd32_altpriority_encoder_nh8
+R13
+R2
+R3
+R0
+R14
+R15
+l0
+Z33 L1046
+Vg`UJIS4^inPN:0eK<BBR90
+!s100 U8KTEUg@G59N7KP9nNDAP1
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 add32_altpriority_encoder_nh8 0 22 g`UJIS4^inPN:0eK<BBR90
+Z34 l1059
+Z35 L1055
+VGG2>od_7eE2C>]iD6lOV?1
+!s100 lNQQTK4J_MMc9A1cgjJZ_0
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Eadd32_altpriority_encoder_q28
+R13
+R2
+R3
+R0
+R14
+R15
+l0
+Z36 L1286
+V=@Y>4`Xo>7Wg9km0VTQF43
+!s100 X_^YNJ]3Bj1WP<;<Y8`eB2
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 add32_altpriority_encoder_q28 0 22 =@Y>4`Xo>7Wg9km0VTQF43
+Z37 l1318
+Z38 L1294
+VBo9ln3Q=dza;X@Wm6E[0o0
+!s100 ;i3lYU_KS5OI8TBFVZNFa0
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Eadd32_altpriority_encoder_qb6
+R13
+R2
+R3
+R0
+R14
+R15
+l0
+L963
+VLU^`?ooil56U@IzW3dGU_0
+!s100 ;C`EXk8b?JRV52K@CmUHe2
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 add32_altpriority_encoder_qb6 0 22 LU^`?ooil56U@IzW3dGU_0
+l995
+L971
+VAkPC8V<?>^i6aJkUkj<1b1
+!s100 IVj>be:6`10aRHXnRV@Dz0
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Eadd32_altpriority_encoder_qh8
+R13
+R2
+R3
+R0
+R14
+R15
+l0
+Z39 L1072
+VUaS=Y3;hN?AQ?SaZ:Z]a^1
+!s100 ibo3Q>P1A2ddTPSA;3@=13
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 add32_altpriority_encoder_qh8 0 22 UaS=Y3;hN?AQ?SaZ:Z]a^1
+Z40 l1099
+Z41 L1081
+V[dm:BEHcN:m5@n=4TG<CA2
+!s100 ogE9@nc=jXWO3He=TB^z71
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Eadd32_altpriority_encoder_r08
+R13
+R2
+R3
+R0
+R14
+R15
+l0
+L836
+V_P6EzjB3SmP:Q@7k[I2<@1
+!s100 `_H^98m]U3>B4=GF@aB@80
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 add32_altpriority_encoder_r08 0 22 _P6EzjB3SmP:Q@7k[I2<@1
+l868
+L844
+VPUg4_IWW]C1YZIU?3L51U3
+!s100 hdE6KIV7DLQmJNG^EUi_b3
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Eadd32_altpriority_encoder_rf8
+R13
+R2
+R3
+R0
+R14
+R15
+l0
+L903
+Vkh`b2_dl9i_n8J5Ua<o3W0
+!s100 j74Sme1OViehkNmIB`DM30
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 add32_altpriority_encoder_rf8 0 22 kh`b2_dl9i_n8J5Ua<o3W0
+l930
+L912
+VlQOH5JjKK0[mA5WnI[CcN2
+!s100 AW8U^Je:W7_@F]0JDhR_43
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Eadd32_altpriority_encoder_v28
+R13
+R2
+R3
+R0
+R14
+R15
+l0
+Z42 L1343
+V=6mM64KBM2DId2ZAiediY2
+!s100 MAAMBYR0AgjLR[d:RSQH50
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 add32_altpriority_encoder_v28 0 22 =6mM64KBM2DId2ZAiediY2
+Z43 l1375
+Z44 L1351
+V]9`;0;8nPW3fA^J8i@AUn1
+!s100 H:SAAG4@3L>ERGB<9ZUge0
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Eadd32_altpriority_encoder_vh8
+R13
+R2
+R3
+R0
+R14
+R15
+l0
+Z45 L1126
+VO<Mk^TF]mSCVbVi86_dB21
+!s100 g]n@FdPKOZdeJ:Q?o5RWH2
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 add32_altpriority_encoder_vh8 0 22 O<Mk^TF]mSCVbVi86_dB21
+Z46 l1153
+Z47 L1135
+VN37@gY4W:f07nFg0zL3_@1
+!s100 ]H0aMIiY8nkSC24QhZ>Go2
+R6
+33
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Ealpha
+Z48 w1557249394
+R2
+R3
+R0
+Z49 8C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/alpha.vhd
+Z50 FC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/alpha.vhd
+l0
+L63
+V58I0Nb:=k;nH7L7NmZ?IG3
+!s100 eBZbo2YYzbemKG5S5ML3T2
+R6
+33
+Z51 !s110 1557483259
+!i10b 1
+Z52 !s108 1557483259.000000
+Z53 !s90 -reportprogress|300|-2008|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/alpha.vhd|
+Z54 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/alpha.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 5 alpha 0 22 58I0Nb:=k;nH7L7NmZ?IG3
+l83
+L71
+V1D27DX27oPJMXhMXTnekm1
+!s100 SDKa^BkBU`NzI[>HFDPEd1
+R6
+33
+R51
+!i10b 1
+R52
+R53
+R54
+!i113 1
+R11
+R12
+Ealpha_lpm_constant_p59
+R48
+R2
+R3
+R0
+R49
+R50
+l0
+L43
+VOcS11GVS4mT]?J2KFzAYQ0
+!s100 0<2R3=bCaLNkd6gCKG@^J1
+R6
+33
+R51
+!i10b 1
+R52
+R53
+R54
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 22 alpha_lpm_constant_p59 0 22 OcS11GVS4mT]?J2KFzAYQ0
+l52
+L50
+VKOz_fB6D4YdA=o8=kQF<l2
+!s100 YW_D5mOO4zGhmH@EPlGN61
+R6
+33
+R51
+!i10b 1
+R52
+R53
+R54
+!i113 1
+R11
+R12
+Ebeta
+Z55 w1557249474
+R2
+R3
+R0
+Z56 8C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/beta.vhd
+Z57 FC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/beta.vhd
+l0
+L63
+V3K@:5ai1^<k1he5]`jBE?2
+!s100 eED989AL1Kgn_eUAMl]I=3
+R6
+33
+R51
+!i10b 1
+R52
+Z58 !s90 -reportprogress|300|-2008|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/beta.vhd|
+Z59 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/beta.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 4 beta 0 22 3K@:5ai1^<k1he5]`jBE?2
+l83
+L71
+Vj9Nl36kDOf1M]SSbMdzMD0
+!s100 QQANFGR4e@bzoF7I81hML3
+R6
+33
+R51
+!i10b 1
+R52
+R58
+R59
+!i113 1
+R11
+R12
+Ebeta_lpm_constant_t49
+R55
+R2
+R3
+R0
+R56
+R57
+l0
+L43
+V_MRPa539nYWaG:O?RXS9H2
+!s100 o7a3McZZ3HgiX^a4h0@282
+R6
+33
+R51
+!i10b 1
+R52
+R58
+R59
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 21 beta_lpm_constant_t49 0 22 _MRPa539nYWaG:O?RXS9H2
+l52
+L50
+VfbVZ>06oH1m5JZzXeVW7T3
+!s100 4D4DTTP7VjBeYd8jBg@Vc0
+R6
+33
+R51
+!i10b 1
+R52
+R58
+R59
+!i113 1
+R11
+R12
+Eclk1const
+Z60 w1557483044
+R2
+R3
+R0
+Z61 8C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/CLK1Const.vhd
+Z62 FC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/CLK1Const.vhd
+l0
+L63
+VV?1lXGhW``leYbBnfe=zH1
+!s100 W0BO[7Z_`E]811aCE^k^^1
+R6
+33
+R51
+!i10b 1
+R52
+Z63 !s90 -reportprogress|300|-2008|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/CLK1Const.vhd|
+Z64 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/CLK1Const.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 9 clk1const 0 22 V?1lXGhW``leYbBnfe=zH1
+l83
+L71
+V18coGOVR^M:116Ub:[YX]0
+!s100 TgjPlWUl[9=@^3GWEcbhk2
+R6
+33
+R51
+!i10b 1
+R52
+R63
+R64
+!i113 1
+R11
+R12
+Eclk1const_lpm_constant_f29
+R60
+R2
+R3
+R0
+R61
+R62
+l0
+L43
+V?J8W=B7R_[DW]gl;3j60e2
+!s100 KI=TXTgS=iG_g^EGLBFa32
+R6
+33
+R51
+!i10b 1
+R52
+R63
+R64
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 26 clk1const_lpm_constant_f29 0 22 ?J8W=B7R_[DW]gl;3j60e2
+l52
+L50
+VlV_W_`l30`[N@Jl>]nW2T3
+!s100 e_2:50]o>9<:N2iDdFU:21
+R6
+33
+R51
+!i10b 1
+R52
+R63
+R64
+!i113 1
+R11
+R12
+Eclk2const
+Z65 w1557483004
+R2
+R3
+R0
+Z66 8C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/CLK2Const.vhd
+Z67 FC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/CLK2Const.vhd
+l0
+L63
+VE1lcje3VBO6Ch8W4BQ5:;2
+!s100 fHoK42[:c>T`0DmA<ZUjm0
+R6
+33
+Z68 !s110 1557483260
+!i10b 1
+Z69 !s108 1557483260.000000
+Z70 !s90 -reportprogress|300|-2008|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/CLK2Const.vhd|
+Z71 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/CLK2Const.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 9 clk2const 0 22 E1lcje3VBO6Ch8W4BQ5:;2
+l83
+L71
+Vh@_8jUeQC:]N=R0H_JG8E2
+!s100 QC6hQXK[CXz<l;WSmcRHg2
+R6
+33
+R68
+!i10b 1
+R69
+R70
+R71
+!i113 1
+R11
+R12
+Eclk2const_lpm_constant_b49
+R65
+R2
+R3
+R0
+R66
+R67
+l0
+L43
+VFH<NZ<n=X4ak9bVV6KS>B1
+!s100 <3<n`>J[;1<WZCcO2E[f81
+R6
+33
+R68
+!i10b 1
+R69
+R70
+R71
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 26 clk2const_lpm_constant_b49 0 22 FH<NZ<n=X4ak9bVV6KS>B1
+l52
+L50
+V7Q1HZkOngFhIV5nO1D?3X3
+!s100 U[X;Ze5[Rm8AH1::KGngo3
+R6
+33
+R68
+!i10b 1
+R69
+R70
+R71
+!i113 1
+R11
+R12
+Ecompequal
+Z72 w1557248009
+R2
+R3
+R0
+Z73 8C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/compEqual.vhd
+Z74 FC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/compEqual.vhd
+l0
+L42
+VgPI=RMM>=C?m@C:k8?1z^3
+!s100 CgH1am]IhKLCK@FPkom<L2
+R6
+33
+R7
+!i10b 1
+R8
+Z75 !s90 -reportprogress|300|-2008|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/compEqual.vhd|
+Z76 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/compEqual.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 9 compequal 0 22 gPI=RMM>=C?m@C:k8?1z^3
+l73
+L51
+VNBbfDO1;R3PZ]bRH10Y:l0
+!s100 VSoCi@X1=C]<NFCHJ<d2W0
+R6
+33
+R7
+!i10b 1
+R8
+R75
+R76
+!i113 1
+R11
+R12
+Edeltat
+Z77 w1557102321
+R2
+R3
+R0
+Z78 8C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/deltaT.vhd
+Z79 FC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/deltaT.vhd
+l0
+L63
+VOK:6amM06di4;i;?LBN8L2
+!s100 9EddkkPl=bNijN3Vkg^QQ3
+R6
+33
+Z80 !s110 1557483257
+!i10b 1
+R16
+Z81 !s90 -reportprogress|300|-2008|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/deltaT.vhd|
+Z82 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/deltaT.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 6 deltat 0 22 OK:6amM06di4;i;?LBN8L2
+l83
+L71
+VUJ1nz=4:DoMh>dcoFgTkM0
+!s100 B:XT:TIefJeMFB8?gKc=53
+R6
+33
+R80
+!i10b 1
+R16
+R81
+R82
+!i113 1
+R11
+R12
+Edeltat_lpm_constant_o49
+R77
+R2
+R3
+R0
+R78
+R79
+l0
+L43
+VM?JlRmfC]IY<:A0njU`L<2
+!s100 039OFa]eYA6AoAEL;FMT;1
+R6
+33
+R80
+!i10b 1
+R16
+R81
+R82
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 23 deltat_lpm_constant_o49 0 22 M?JlRmfC]IY<:A0njU`L<2
+l52
+L50
+VTc=z9Kl6iWO;Ol2meTfaG3
+!s100 i[P?3kYzCUTa@`>5Yz]3K3
+R6
+33
+R80
+!i10b 1
+R16
+R81
+R82
+!i113 1
+R11
+R12
+Ediff
+Z83 w1557257169
+R2
+R3
+R0
+Z84 8C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/diff.vhd
+Z85 FC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/diff.vhd
+l0
+L24
+V`Qgbo[JGeT4]Mm3kUzmE_1
+!s100 Zn>P8UeQN;Ec:a`l;AE:40
+R6
+32
+Z86 !s110 1557483277
+!i10b 1
+Z87 !s108 1557483277.000000
+Z88 !s90 -reportprogress|300|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/diff.vhd|
+Z89 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/diff.vhd|
+!i113 1
+Z90 o-work work
+R12
+Abdf_type
+R2
+R3
+DEx4 work 4 diff 0 22 `Qgbo[JGeT4]Mm3kUzmE_1
+l100
+L33
+V5o?mn^zKP^Az2mO2oVO<i3
+!s100 1jnNHC_gQU]k3Pdj@OicS2
+R6
+32
+R86
+!i10b 1
+R87
+R88
+R89
+!i113 1
+R90
+R12
+Edivider2
+Z91 w1557360013
+R2
+R3
+R0
+Z92 8C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/divider2.vhd
+Z93 FC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/divider2.vhd
+l0
+L1820
+VlbnBP3m12eY3R4m>^>LWf1
+!s100 9Bn6JP9YKHWic`O7^a45A3
+R6
+33
+R80
+!i10b 1
+Z94 !s108 1557483256.000000
+Z95 !s90 -reportprogress|300|-2008|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/divider2.vhd|
+Z96 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/divider2.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 8 divider2 0 22 lbnBP3m12eY3R4m>^>LWf1
+l1846
+L1831
+VH8DgdkYIoKcA?C[Lk;Wio2
+!s100 A2VN`fbdh=eing`RMOjDd3
+R6
+33
+R80
+!i10b 1
+R94
+R95
+R96
+!i113 1
+R11
+R12
+Edivider2_altfp_div_ach
+R91
+R2
+R3
+R0
+R92
+R93
+l0
+L1772
+VDmH@RedmK5KheM_Mg95dB1
+!s100 QGSU=WE=Y_gad817DG7fm2
+R6
+33
+R80
+!i10b 1
+R94
+R95
+R96
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 22 divider2_altfp_div_ach 0 22 DmH@RedmK5KheM_Mg95dB1
+l1798
+L1782
+V><_]Rkmo<Ek2]l:Plok>:0
+!s100 WcBnVi_Q3R2MgVER;SYYj0
+R6
+33
+R80
+!i10b 1
+R94
+R95
+R96
+!i113 1
+R11
+R12
+Edivider2_altfp_div_pst_22f
+R91
+R2
+R3
+R0
+R92
+R93
+l0
+L53
+V@6c=Wd[=fM5AkSK0O0jY83
+!s100 J^4icUoo<h@3<Y4a@;PMg2
+R6
+33
+Z97 !s110 1557483256
+!i10b 1
+R94
+R95
+R96
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 26 divider2_altfp_div_pst_22f 0 22 @6c=Wd[=fM5AkSK0O0jY83
+l837
+L65
+V]i`SdTj9@c`bN]]Yi]?1e1
+!s100 SZRT@n=eWDfBW1@ZREGUX1
+R6
+33
+R97
+!i10b 1
+R94
+R95
+R96
+!i113 1
+R11
+R12
+Efpcomparegreat
+Z98 w1557247774
+R2
+R3
+R0
+Z99 8C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/fpCompareGreat.vhd
+Z100 FC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/fpCompareGreat.vhd
+l0
+L786
+V]2i;Ho_Z?TSD0Y>lHiXnc1
+!s100 @LM4gAMH@T<zGjZogfEzX3
+R6
+33
+R7
+!i10b 1
+R8
+Z101 !s90 -reportprogress|300|-2008|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/fpCompareGreat.vhd|
+Z102 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/fpCompareGreat.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 14 fpcomparegreat 0 22 ]2i;Ho_Z?TSD0Y>lHiXnc1
+l812
+L797
+VMkg;mNF2i57Z6CMF_]2PR1
+!s100 ZP9]BOQ5KUEOWSd81O2l52
+R6
+33
+R7
+!i10b 1
+R8
+R101
+R102
+!i113 1
+R11
+R12
+Efpcomparegreat_altfp_compare_38b
+R98
+R2
+R3
+R0
+R99
+R100
+l0
+L46
+VoiYaQdLFjKlUmack6YT2L3
+!s100 B;?da;AO9nLgPez^8>bU32
+R6
+33
+R7
+!i10b 1
+R8
+R101
+R102
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 32 fpcomparegreat_altfp_compare_38b 0 22 oiYaQdLFjKlUmack6YT2L3
+l409
+L56
+VDAMjMKUQA18dnla:eT9bD3
+!s100 dfkE2_Xk>V9g0B?8?G3NQ3
+R6
+33
+R7
+!i10b 1
+R8
+R101
+R102
+!i113 1
+R11
+R12
+Efpcompareless
+Z103 w1557247812
+R2
+R3
+R0
+Z104 8C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/fpCompareLess.vhd
+Z105 FC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/fpCompareLess.vhd
+l0
+L790
+V:D;[Y_>@V230`i8l9C2cJ0
+!s100 VQ8kRRdB6WzN?^0f<:D9G2
+R6
+33
+R7
+!i10b 1
+R8
+Z106 !s90 -reportprogress|300|-2008|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/fpCompareLess.vhd|
+Z107 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/fpCompareLess.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 13 fpcompareless 0 22 :D;[Y_>@V230`i8l9C2cJ0
+l816
+L801
+VP;F2[LlTPQ=nE[hRPF0]10
+!s100 h<<MzccB@Ki<6MIZiViUj0
+R6
+33
+R7
+!i10b 1
+R8
+R106
+R107
+!i113 1
+R11
+R12
+Efpcompareless_altfp_compare_88b
+R103
+R2
+R3
+R0
+R104
+R105
+l0
+L46
+V?fKD<KIIoK?d?`1Xi_=Rj1
+!s100 X7X_Id;WYZbk3VT7;Mh=f2
+R6
+33
+R7
+!i10b 1
+R8
+R106
+R107
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 31 fpcompareless_altfp_compare_88b 0 22 ?fKD<KIIoK?d?`1Xi_=Rj1
+l411
+L56
+V39kNcJdU2Ho9MSP1ELXRg0
+!s100 FH^1]QEJ[j4T]4IokTE2Y2
+R6
+33
+R7
+!i10b 1
+R8
+R106
+R107
+!i113 1
+R11
+R12
+Ehalfsies
+Z108 w1557249573
+R2
+R3
+R0
+Z109 8C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/halfsies.vhd
+Z110 FC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/halfsies.vhd
+l0
+L63
+VeK3zf`1GU;VOV=aH_:=b?0
+!s100 mzL:M^1EZK[aFVH4NC[IO0
+R6
+33
+R51
+!i10b 1
+R52
+Z111 !s90 -reportprogress|300|-2008|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/halfsies.vhd|
+Z112 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/halfsies.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 8 halfsies 0 22 eK3zf`1GU;VOV=aH_:=b?0
+l83
+L71
+Vl6=W1NoOZDIk4hlX6@4_J3
+!s100 AgIe]S29IXX76RdIn[;Qo1
+R6
+33
+R51
+!i10b 1
+R52
+R111
+R112
+!i113 1
+R11
+R12
+Ehalfsies_lpm_constant_k29
+R108
+R2
+R3
+R0
+R109
+R110
+l0
+L43
+Vn^G7a>QbQdi=ImA:cFO9M3
+!s100 KX0M>2mEcjz@[>cE@czz:1
+R6
+33
+R51
+!i10b 1
+R52
+R111
+R112
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 25 halfsies_lpm_constant_k29 0 22 n^G7a>QbQdi=ImA:cFO9M3
+l52
+L50
+V8=7<>_7j?DhhQ^>_dOYYP1
+!s100 <lBiPbi3SnBiJ?@YMW[lJ2
+R6
+33
+R51
+!i10b 1
+R52
+R111
+R112
+!i113 1
+R11
+R12
+Ememristor
+Z113 w1557360129
+R2
+R3
+R0
+Z114 8C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/memristor.vhd
+Z115 FC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/memristor.vhd
+l0
+L24
+VM[1LM6_?1F^Z2XHWFbaL51
+!s100 <_LJa9k<:T:zDld>A_j_I3
+R6
+32
+Z116 !s110 1557483281
+!i10b 1
+Z117 !s108 1557483281.000000
+Z118 !s90 -reportprogress|300|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/memristor.vhd|
+Z119 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/memristor.vhd|
+!i113 1
+R90
+R12
+Abdf_type
+R2
+R3
+DEx4 work 9 memristor 0 22 M[1LM6_?1F^Z2XHWFbaL51
+l153
+L39
+V=zZ0m5c2`EJf^6XY`7bam0
+!s100 BL0SbRY^Haj4IX:JdmJo>1
+R6
+32
+R116
+!i10b 1
+R117
+R118
+R119
+!i113 1
+R90
+R12
+Emuxmeup
+Z120 w1557246665
+Z121 DPx3 lpm 14 lpm_components 0 22 BZZBj]8LhndN7CkCjD@L`2
+R2
+R3
+R0
+Z122 8C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/muxMeUp.vhd
+Z123 FC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/muxMeUp.vhd
+l0
+L42
+Vaah9LkBPL45RK@=C3EZT]0
+!s100 d=d2B1:[1Z<=H6XS25ZYC2
+R6
+33
+R80
+!i10b 1
+R16
+Z124 !s90 -reportprogress|300|-2008|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/muxMeUp.vhd|
+Z125 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/muxMeUp.vhd|
+!i113 1
+R11
+R12
+Asyn
+R121
+R2
+R3
+DEx4 work 7 muxmeup 0 22 aah9LkBPL45RK@=C3EZT]0
+l64
+L53
+VU2Rf`V^U4j6W?;F_0_EUY3
+!s100 a29fWKCj4:b?b552G4D3H0
+R6
+33
+R80
+!i10b 1
+R16
+R124
+R125
+!i113 1
+R11
+R12
+Emymult1
+Z126 w1557260046
+R2
+R3
+R0
+Z127 8C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/mymult1.vhd
+Z128 FC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/mymult1.vhd
+l0
+L1422
+VFFdF6:n`XVZBdJHdE1B8A0
+!s100 =<ShhghakU<IHfZl^7^:W3
+R6
+33
+R97
+!i10b 1
+R94
+Z129 !s90 -reportprogress|300|-2008|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/mymult1.vhd|
+Z130 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/mymult1.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 7 mymult1 0 22 FFdF6:n`XVZBdJHdE1B8A0
+l1448
+L1433
+VfLGUB?QHO0k[3WXldkY=]3
+!s100 5nW@WX015o;^fRlULVOm>3
+R6
+33
+R97
+!i10b 1
+R94
+R129
+R130
+!i113 1
+R11
+R12
+Emymult1_altfp_mult_trn
+R126
+R2
+R3
+R0
+R127
+R128
+l0
+L46
+VP9jge^czQe=6]QXAHa[R=3
+!s100 ^ieYAb]2;>12cSJf1KVHJ2
+R6
+33
+R97
+!i10b 1
+R94
+R129
+R130
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 22 mymult1_altfp_mult_trn 0 22 P9jge^czQe=6]QXAHa[R=3
+l665
+L56
+VRGTnXk1loV;i<jcJo3a9^2
+!s100 Ld:Ai`CG5ARhKNPW?S>kZ2
+R6
+33
+R97
+!i10b 1
+R94
+R129
+R130
+!i113 1
+R11
+R12
+Epav_testbench
+Z131 w1557486382
+Z132 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+Z133 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z134 8C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/Pav_testbench.vhd
+Z135 FC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/Pav_testbench.vhd
+l0
+L5
+VYcjiZKb88DAMb;J01jfTF2
+!s100 lR_3<0CB?ROMBjW>M`V8a3
+R6
+32
+Z136 !s110 1557486403
+!i10b 1
+Z137 !s108 1557486403.000000
+Z138 !s90 -reportprogress|300|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/Pav_testbench.vhd|
+Z139 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/Pav_testbench.vhd|
+!i113 1
+R90
+R12
+Atest
+R132
+R133
+R2
+R3
+Z140 DEx4 work 13 pav_testbench 0 22 YcjiZKb88DAMb;J01jfTF2
+l21
+L8
+Z141 VnXaKSKmAS3n89UUdfa?0l3
+Z142 !s100 HCTBmkU1K0lE6AB59SWl91
+R6
+32
+R136
+!i10b 1
+R137
+R138
+R139
+!i113 1
+R90
+R12
+Epavdogsim
+Z143 w1557483235
+R2
+R3
+R0
+Z144 8C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/pavDOGSIM.vhd
+Z145 FC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/pavDOGSIM.vhd
+l0
+L24
+Vo?H@OZj5n^DPhgURZT36I3
+!s100 F59jk5XGRZf0E434I9KZL3
+R6
+32
+Z146 !s110 1557483288
+!i10b 1
+Z147 !s108 1557483288.000000
+Z148 !s90 -reportprogress|300|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/pavDOGSIM.vhd|
+Z149 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/pavDOGSIM.vhd|
+!i113 1
+R90
+R12
+Abdf_type
+R2
+R3
+DEx4 work 9 pavdogsim 0 22 o?H@OZj5n^DPhgURZT36I3
+l154
+L38
+VMU?J;0B]hccIMZ0;;>fdj1
+!s100 R9>]Y26ZeM8oRXIARfPH@0
+R6
+32
+R146
+!i10b 1
+R147
+R148
+R149
+!i113 1
+R90
+R12
+Epavthresh
+Z150 w1557478682
+R2
+R3
+R0
+Z151 8C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/PavThresh.vhd
+Z152 FC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/PavThresh.vhd
+l0
+L63
+VMT@8HMPi>GnLl>?JeCgec3
+!s100 H69>]S?Q1:jAf6D88PP`_3
+R6
+33
+R68
+!i10b 1
+R69
+Z153 !s90 -reportprogress|300|-2008|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/PavThresh.vhd|
+Z154 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/PavThresh.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 9 pavthresh 0 22 MT@8HMPi>GnLl>?JeCgec3
+l83
+L71
+V6IG`cVhhTbKTJ;P80Qm6j1
+!s100 Z>=oKYcPmU9Ah_oLTAH2R2
+R6
+33
+R68
+!i10b 1
+R69
+R153
+R154
+!i113 1
+R11
+R12
+Epavthresh_lpm_constant_kd9
+R150
+R2
+R3
+R0
+R151
+R152
+l0
+L43
+VzRM5bhG_X<4:ni;[c[4ac1
+!s100 VZ^0ZimE]nggBUU^7TdgL0
+R6
+33
+R68
+!i10b 1
+R69
+R153
+R154
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 26 pavthresh_lpm_constant_kd9 0 22 zRM5bhG_X<4:ni;[c[4ac1
+l52
+L50
+VG9;>;USgM:_6K:8E5XP0=1
+!s100 McgW6SeG>@Y7B4k6L9<jV0
+R6
+33
+R68
+!i10b 1
+R69
+R153
+R154
+!i113 1
+R11
+R12
+Er2const
+Z155 w1557440437
+R2
+R3
+R0
+Z156 8C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/R2Const.vhd
+Z157 FC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/R2Const.vhd
+l0
+L63
+VNhDdhem]kdeEcILS;FHZz2
+!s100 42@[hMn@T<G4Q4lVW]WNF3
+R6
+33
+R68
+!i10b 1
+R69
+Z158 !s90 -reportprogress|300|-2008|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/R2Const.vhd|
+Z159 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/R2Const.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 7 r2const 0 22 NhDdhem]kdeEcILS;FHZz2
+l83
+L71
+V@TkOm]BO7e`5LgWHUe?M?0
+!s100 H9]OagZ95DGU;nID<=SZ@1
+R6
+33
+R68
+!i10b 1
+R69
+R158
+R159
+!i113 1
+R11
+R12
+Er2const_lpm_constant_s29
+R155
+R2
+R3
+R0
+R156
+R157
+l0
+L43
+VXY0bDF5IcLWkTc3E2UTTY2
+!s100 Gkib3=Njaf]51cNC[R>4B3
+R6
+33
+R68
+!i10b 1
+R69
+R158
+R159
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 24 r2const_lpm_constant_s29 0 22 XY0bDF5IcLWkTc3E2UTTY2
+l52
+L50
+V9I=GUeE;0oO]gD117OVRL2
+!s100 QXQhQMZAm=FUh?o8iAPef1
+R6
+33
+R68
+!i10b 1
+R69
+R158
+R159
+!i113 1
+R11
+R12
+Eregy
+Z160 w1557247284
+R2
+R3
+R0
+Z161 8C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/regy.vhd
+Z162 FC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/regy.vhd
+l0
+L42
+VHNO?PR:K8PWCjCZ7nS;;=2
+!s100 hD9iD[ekfGS8kDE3Gc[`?2
+R6
+33
+R7
+!i10b 1
+R8
+Z163 !s90 -reportprogress|300|-2008|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/regy.vhd|
+Z164 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/regy.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 4 regy 0 22 HNO?PR:K8PWCjCZ7nS;;=2
+l73
+L53
+VXPiXhXo=aiNFTSKMM;g^g2
+!s100 a9<8ZIkGJlJWS=1a64@]E3
+R6
+33
+R7
+!i10b 1
+R8
+R163
+R164
+!i113 1
+R11
+R12
+Ermax
+Z165 w1557246508
+R2
+R3
+R0
+Z166 8C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/rmax.vhd
+Z167 FC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/rmax.vhd
+l0
+L63
+VfZ>L:CQQJJ];z=61Tf9Og3
+!s100 azgH^B69@?0>^nVX2>chS1
+R6
+33
+R80
+!i10b 1
+R16
+Z168 !s90 -reportprogress|300|-2008|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/rmax.vhd|
+Z169 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/rmax.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 4 rmax 0 22 fZ>L:CQQJJ];z=61Tf9Og3
+l83
+L71
+V1M02RB0AR:3c[A5OHTH3G2
+!s100 gWSO]JPB@>hHC:j`DX]T01
+R6
+33
+R80
+!i10b 1
+R16
+R168
+R169
+!i113 1
+R11
+R12
+Ermax_lpm_constant_c39
+R165
+R2
+R3
+R0
+R166
+R167
+l0
+L43
+V:I=m[A<mI1LF;k0K[M;oO3
+!s100 ]6OG;3TjR5f>8k6?e=_8a3
+R6
+33
+R80
+!i10b 1
+R16
+R168
+R169
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 21 rmax_lpm_constant_c39 0 22 :I=m[A<mI1LF;k0K[M;oO3
+l52
+L50
+Vaa?J8EUf]UUcnAD3zKB@e1
+!s100 e0bWfcGgVHa0<7WnjMC3k0
+R6
+33
+R80
+!i10b 1
+R16
+R168
+R169
+!i113 1
+R11
+R12
+Ermin
+Z170 w1557246434
+R2
+R3
+R0
+Z171 8C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/rmin.vhd
+Z172 FC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/rmin.vhd
+l0
+L63
+VLXclGX3SRB6B1cP=nnFV_3
+!s100 nDN;Of?8Pann01_EfGJXm2
+R6
+33
+R80
+!i10b 1
+R16
+Z173 !s90 -reportprogress|300|-2008|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/rmin.vhd|
+Z174 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/rmin.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 4 rmin 0 22 LXclGX3SRB6B1cP=nnFV_3
+l83
+L71
+VLNDP39Y5OkSl]a>K;6nHR0
+!s100 7BAR:QUW>m9GDUR^bV`FD3
+R6
+33
+R80
+!i10b 1
+R16
+R173
+R174
+!i113 1
+R11
+R12
+Ermin_lpm_constant_139
+R170
+R2
+R3
+R0
+R171
+R172
+l0
+L43
+VgT>^H6LCaLcjMCA:TLkVj3
+!s100 :IZFYRU5B0QY3WgnMhFTN2
+R6
+33
+R80
+!i10b 1
+R16
+R173
+R174
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 21 rmin_lpm_constant_139 0 22 gT>^H6LCaLcjMCA:TLkVj3
+l52
+L50
+VFA461N:4^35l?1;d@kIb=2
+!s100 5n^1X3d5^Kkd<Iz@@RY@70
+R6
+33
+R80
+!i10b 1
+R16
+R173
+R174
+!i113 1
+R11
+R12
+Ertotconst
+Z175 w1557477879
+R2
+R3
+R0
+Z176 8C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/RTOTConst.vhd
+Z177 FC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/RTOTConst.vhd
+l0
+L63
+VeRT?KLf<S`k@P<i]NkoPC1
+!s100 Hga]RKA7=MIgYW=GPHY[H1
+R6
+33
+R68
+!i10b 1
+R69
+Z178 !s90 -reportprogress|300|-2008|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/RTOTConst.vhd|
+Z179 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/RTOTConst.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 9 rtotconst 0 22 eRT?KLf<S`k@P<i]NkoPC1
+l83
+L71
+V`EL`Kgmgk4Xdg1aEBo9I?0
+!s100 Rh>O3>REIVh;T[]`[mAEV1
+R6
+33
+R68
+!i10b 1
+R69
+R178
+R179
+!i113 1
+R11
+R12
+Ertotconst_lpm_constant_s19
+R175
+R2
+R3
+R0
+R176
+R177
+l0
+L43
+V>z9ChT=6mk2]9A5YP>IlK2
+!s100 TRiWRY:`aDbIR]Ma4Gi[D1
+R6
+33
+R68
+!i10b 1
+R69
+R178
+R179
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 26 rtotconst_lpm_constant_s19 0 22 >z9ChT=6mk2]9A5YP>IlK2
+l52
+L50
+VncG2odE06k4SKWLjAEOGj0
+!s100 0YoBlGXA@TG8RU]hhneo91
+R6
+33
+R68
+!i10b 1
+R69
+R178
+R179
+!i113 1
+R11
+R12
+Esub32
+Z180 w1557260301
+R2
+R3
+R0
+Z181 8C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/SUB32.vhd
+Z182 FC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/SUB32.vhd
+l0
+L4765
+Vo]Q^JFSz20m`74=Zj594a3
+!s100 ;zk7`G^hh>4@1MlG2lL8R3
+R6
+33
+R80
+!i10b 1
+R16
+Z183 !s90 -reportprogress|300|-2008|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/SUB32.vhd|
+Z184 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/SUB32.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 5 sub32 0 22 o]Q^JFSz20m`74=Zj594a3
+l4791
+L4776
+V0JZKDoaSga]O2BXl;0QS01
+!s100 J`P6N[lL88>[Qgkh@oj223
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Esub32_altbarrel_shift_35e
+R180
+R2
+R3
+R0
+R181
+R182
+l0
+L47
+V9QUSO37Ve=5z54OL<`fhV1
+!s100 ]`ee8zElQFS;d08djYdmC1
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 25 sub32_altbarrel_shift_35e 0 22 9QUSO37Ve=5z54OL<`fhV1
+l148
+L59
+Vble;jfWbLSPQS]`TNzo0?1
+!s100 1nL^8A03g]cDa=e7H<F^m1
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Esub32_altbarrel_shift_olb
+R180
+R2
+R3
+R0
+R181
+R182
+l0
+L305
+VRl7<9ca`TV:n5NoYjT;ZS0
+!s100 i9VEYdc[3OCz:Xa:IcmDR2
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 25 sub32_altbarrel_shift_olb 0 22 Rl7<9ca`TV:n5NoYjT;ZS0
+l392
+L314
+VoS<ZLo4;5PW^bSc<BAdcX2
+!s100 S>e>ZJ6bMa@X^GR86Yjif2
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Esub32_altfp_add_sub_66j
+R180
+R2
+R3
+R0
+R181
+R182
+l0
+R19
+VSbRg`CmP>SY?Xl?d7^i`i0
+!s100 9h3JSBc6Jb2fK>k[IJnJN1
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 23 sub32_altfp_add_sub_66j 0 22 SbRg`CmP>SY?Xl?d7^i`i0
+l2939
+R20
+V_cYeXVaB[gcTUY=4mb<na3
+!s100 hB?lA2oEOHT8aVKOTgnZ>2
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Esub32_altpriority_encoder_3e8
+R180
+R2
+R3
+R0
+R181
+R182
+l0
+L548
+VdPGh4CAX@C<C<1JWA:WoG3
+!s100 j^mJYER9knlhL3?bnH`HO1
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 sub32_altpriority_encoder_3e8 0 22 dPGh4CAX@C<C<1JWA:WoG3
+l559
+L557
+Vd;i<4SYT5DZ0Ag7@]mNnB2
+!s100 ^_;EB]LVMCcNn5Udkzcil2
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Esub32_altpriority_encoder_3v7
+R180
+R2
+R3
+R0
+R181
+R182
+l0
+L696
+V1_;^TnKZNf>HUeA3GCoC13
+!s100 dUiebSY4eF>HZYC7bMQPQ0
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 sub32_altpriority_encoder_3v7 0 22 1_;^TnKZNf>HUeA3GCoC13
+l706
+L704
+VK36W:`4GSN_ch9[7WefRC3
+!s100 bih^K:iGU;DKQhEOC@gPV3
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Esub32_altpriority_encoder_6e8
+R180
+R2
+R3
+R0
+R181
+R182
+l0
+L570
+V^45i[e38QcEE7b_N[=0c30
+!s100 fR5J<Kkbm05bmOi0K8aa01
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 sub32_altpriority_encoder_6e8 0 22 ^45i[e38QcEE7b_N[=0c30
+l597
+L579
+V4YhIMA84TN`X]>k;N5:RV3
+!s100 NSN`PJmzSchXnE;MSok3o3
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Esub32_altpriority_encoder_6v7
+R180
+R2
+R3
+R0
+R181
+R182
+l0
+L716
+V^kULicZLI]kXj1?j:m3]J3
+!s100 Dk1>U2@:;m4Lb:BU>FIol2
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 sub32_altpriority_encoder_6v7 0 22 ^kULicZLI]kXj1?j:m3]J3
+l748
+L724
+VLV`z2RP@[WB1SLL`R5XbZ0
+!s100 280?[M60nEJ[8[<SP4I8E3
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Esub32_altpriority_encoder_be8
+R180
+R2
+R3
+R0
+R181
+R182
+l0
+L624
+VV:=W7e`BnHS[6OGb^W;RS1
+!s100 aXdPFP`lZkhjao;P`S;@?3
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 sub32_altpriority_encoder_be8 0 22 V:=W7e`BnHS[6OGb^W;RS1
+l651
+L633
+VU@?_TkD1YZ@I3oB=R5J001
+!s100 kX[z4BT@5oRznRKnAQBi>3
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Esub32_altpriority_encoder_bv7
+R180
+R2
+R3
+R0
+R181
+R182
+l0
+L773
+Vc?5c_8E2aPA5OP8g_=6o<0
+!s100 Ueki0COfHNP86S[e38[cD0
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 sub32_altpriority_encoder_bv7 0 22 c?5c_8E2aPA5OP8g_=6o<0
+l805
+L781
+VK_6k4HL@3==@AJD[g4AGM3
+!s100 @Ta8?=EzTl_eha4`SMDM<3
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Esub32_altpriority_encoder_e48
+R180
+R2
+R3
+R0
+R181
+R182
+l0
+R21
+VAg^G3fH?b2;kDWST=6FgB0
+!s100 5:h@?PhE>P5_OF6YL8NDU3
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 sub32_altpriority_encoder_e48 0 22 Ag^G3fH?b2;kDWST=6FgB0
+R22
+R23
+VnHX@8AfJIdi@9SA95ESBT1
+!s100 bghY[`K`CbWZ^G?65N_CP2
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Esub32_altpriority_encoder_f48
+R180
+R2
+R3
+R0
+R181
+R182
+l0
+R24
+VKjifWBS`B16GTa3<I3?ki1
+!s100 ;dl4cm0K>Y5]RhYRlbTF]1
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 sub32_altpriority_encoder_f48 0 22 KjifWBS`B16GTa3<I3?ki1
+R25
+R26
+VOiJ[YaBV=anlZ174ISz4F2
+!s100 GZD:?93AOW[d4LVTnSZ5f1
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Esub32_altpriority_encoder_fj8
+R180
+R2
+R3
+R0
+R181
+R182
+l0
+R27
+Va:6EB[eIN=AgOUe1_3_8^0
+!s100 ZAAO4`=;18V2>>VZ1fjb=0
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 sub32_altpriority_encoder_fj8 0 22 a:6EB[eIN=AgOUe1_3_8^0
+R28
+R29
+VQNaaeDQ`[cF5dZ]LnF1PS2
+!s100 =fITcOF;mf;Ba[L0kckz53
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Esub32_altpriority_encoder_n28
+R180
+R2
+R3
+R0
+R181
+R182
+l0
+R30
+VJ14e3iPc?7PFiC9BTE@XE0
+!s100 gNZ7EIe2FA0_`HmhaaD>a3
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 sub32_altpriority_encoder_n28 0 22 J14e3iPc?7PFiC9BTE@XE0
+R31
+R32
+VTj]SaO7J:RJbl_`@dBFkf0
+!s100 ?9^;FSLEJZ:7ZbM8`n97C2
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Esub32_altpriority_encoder_nh8
+R180
+R2
+R3
+R0
+R181
+R182
+l0
+R33
+V_anUV7B4AHj`;Uz=]Nj7N2
+!s100 aGeGklZ?9AoW<K?A`K>>Y1
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 sub32_altpriority_encoder_nh8 0 22 _anUV7B4AHj`;Uz=]Nj7N2
+R34
+R35
+VJMZ82]5mUEzC8fIVa3jSE0
+!s100 kHNAIV64CH<=iA2mahR0?2
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Esub32_altpriority_encoder_q28
+R180
+R2
+R3
+R0
+R181
+R182
+l0
+R36
+V89jWhU@4A3henY=Kn7Z^k2
+!s100 [FR18W2BVXIF3eoHnDan<0
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 sub32_altpriority_encoder_q28 0 22 89jWhU@4A3henY=Kn7Z^k2
+R37
+R38
+VPR4kHikB2hPXObm:RS@`?2
+!s100 RJiZbWLi]8M240Cm2I5zc0
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Esub32_altpriority_encoder_qb6
+R180
+R2
+R3
+R0
+R181
+R182
+l0
+L963
+Vfi:i]Tb[U1zD=MX^cUQzL3
+!s100 8FB0DCE93J@n>U2LoINCT0
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 sub32_altpriority_encoder_qb6 0 22 fi:i]Tb[U1zD=MX^cUQzL3
+l995
+L971
+VX9n99i9@LcFIcT2NNU`Xj2
+!s100 E`NBN0fROHm>023BJQKEe3
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Esub32_altpriority_encoder_qh8
+R180
+R2
+R3
+R0
+R181
+R182
+l0
+R39
+V6ha[9e^BG7IR5kUdE0;7l0
+!s100 TX25jV76<C^C75G<TF1Sb0
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 sub32_altpriority_encoder_qh8 0 22 6ha[9e^BG7IR5kUdE0;7l0
+R40
+R41
+VUfP3JDEc?^9U8OObK6LVz2
+!s100 Oi8Q?lY_oGJ:E<9`00hgI3
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Esub32_altpriority_encoder_r08
+R180
+R2
+R3
+R0
+R181
+R182
+l0
+L836
+VToUzSAkLgk`cFa[LG>?gg2
+!s100 =C;R>S@C_OF6YmA<@[j2<3
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 sub32_altpriority_encoder_r08 0 22 ToUzSAkLgk`cFa[LG>?gg2
+l868
+L844
+VQ]<HmNVT>QdQS6`h;e;Vj0
+!s100 ?>XNo?BE3j?k3WbHZc8n12
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Esub32_altpriority_encoder_rf8
+R180
+R2
+R3
+R0
+R181
+R182
+l0
+L903
+V`[c0Se>lgIGk_8l[idmo@2
+!s100 XXX`C4^?F;@9MV`9`^OgB2
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 sub32_altpriority_encoder_rf8 0 22 `[c0Se>lgIGk_8l[idmo@2
+l930
+L912
+Vb=J2MYAEDMa^[28<WzUX]3
+!s100 5jkj<7b:I`JLkHJH7XAmQ1
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Esub32_altpriority_encoder_v28
+R180
+R2
+R3
+R0
+R181
+R182
+l0
+R42
+VnB9mI4Pg^`PdeWJNLlmK^2
+!s100 QKf@mjRoHLJIHki=TdU1I3
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 sub32_altpriority_encoder_v28 0 22 nB9mI4Pg^`PdeWJNLlmK^2
+R43
+R44
+Vaen8^ePOIQ@?ED7L44moj3
+!s100 e`Tb<H=4XW<:n=ZDXgj9^3
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Esub32_altpriority_encoder_vh8
+R180
+R2
+R3
+R0
+R181
+R182
+l0
+R45
+VVTk9hNR1Z>cmaTX<RaOId0
+!s100 VfC5cZB9ek>bzHSL[Km2D1
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 29 sub32_altpriority_encoder_vh8 0 22 VTk9hNR1Z>cmaTX<RaOId0
+R46
+R47
+V0ZaXd?Z_`fdQU`AOQC>Ij3
+!s100 _cc82R<G5hGogXR`j9h121
+R6
+33
+R80
+!i10b 1
+R16
+R183
+R184
+!i113 1
+R11
+R12
+Ethreshold
+Z185 w1557257104
+R2
+R3
+R0
+Z186 8C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/threshold.vhd
+Z187 FC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/threshold.vhd
+l0
+L63
+V:bCenM];aY8FfQS^Tz49z0
+!s100 7;zg;1:3nohg:Rcn5D4UZ2
+R6
+33
+R51
+!i10b 1
+R52
+Z188 !s90 -reportprogress|300|-2008|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/threshold.vhd|
+Z189 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/threshold.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 9 threshold 0 22 :bCenM];aY8FfQS^Tz49z0
+l83
+L71
+V_49mJ>9BDHdO3;cebI3@U0
+!s100 2oF<:hJ7B8k2WeYma[P?W2
+R6
+33
+R51
+!i10b 1
+R52
+R188
+R189
+!i113 1
+R11
+R12
+Ethreshold_lpm_constant_549
+R185
+R2
+R3
+R0
+R186
+R187
+l0
+L43
+VTGe[SD8:EjU@Tnd72_6oN3
+!s100 bL7aIho[M2MnlUh@F>HOa3
+R6
+33
+R51
+!i10b 1
+R52
+R188
+R189
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 26 threshold_lpm_constant_549 0 22 TGe[SD8:EjU@Tnd72_6oN3
+l52
+L50
+V158:N:U@=VRZPO:QKeG2l1
+!s100 VHeP4jRmGUe;Q>TMG:Cco1
+R6
+33
+R51
+!i10b 1
+R52
+R188
+R189
+!i113 1
+R11
+R12
+Evtebe
+Z190 w1557433404
+R2
+R3
+R0
+Z191 8C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/Vtebe.vhd
+Z192 FC:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/Vtebe.vhd
+l0
+L42
+VEdNm<mK7MPKb>zj_0LLUo1
+!s100 aTWgSodYGMhkOZB_Cd9<23
+R6
+33
+R51
+!i10b 1
+R52
+Z193 !s90 -reportprogress|300|-2008|-work|work|C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/Vtebe.vhd|
+Z194 !s107 C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/Vtebe.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 5 vtebe 0 22 EdNm<mK7MPKb>zj_0LLUo1
+l68
+L50
+VXn[M>bOHo9j73I2Wj9<ZH2
+!s100 N8?cmBbRlfH?0j]92fUKf0
+R6
+33
+R51
+!i10b 1
+R52
+R193
+R194
+!i113 1
+R11
+R12

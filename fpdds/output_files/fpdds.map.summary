@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri May 10 07:38:26 2019
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : fpdds
+Top-level Entity Name : pavDOGFPGA
+Family : Cyclone IV E
+Total logic elements : 8,502
+    Total combinational functions : 7,498
+    Dedicated logic registers : 4,190
+Total registers : 4190
+Total pins : 6
+Total virtual pins : 0
+Total memory bits : 9,685
+Embedded Multiplier 9-bit elements : 90
+Total PLLs : 1

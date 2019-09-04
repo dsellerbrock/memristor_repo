@@ -1,14 +1,14 @@
-Analysis & Synthesis Status : Successful - Wed Apr 24 14:02:28 2019
+Analysis & Synthesis Status : Failed - Sun May 05 18:40:03 2019
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : TEST
-Top-level Entity Name : Memristor_Model
+Top-level Entity Name : MEMRIST
 Family : Cyclone IV E
-Total logic elements : 10
-    Total combinational functions : 3
-    Dedicated logic registers : 8
-Total registers : 8
-Total pins : 134
-Total virtual pins : 0
-Total memory bits : 0
-Embedded Multiplier 9-bit elements : 0
-Total PLLs : 0
+Total logic elements : N/A until Partition Merge
+    Total combinational functions : N/A until Partition Merge
+    Dedicated logic registers : N/A until Partition Merge
+Total registers : N/A until Partition Merge
+Total pins : N/A until Partition Merge
+Total virtual pins : N/A until Partition Merge
+Total memory bits : N/A until Partition Merge
+Embedded Multiplier 9-bit elements : N/A until Partition Merge
+Total PLLs : N/A until Partition Merge

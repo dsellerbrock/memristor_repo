@@ -1,0 +1,15 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -2008 -work work {C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/dds_sine.vhd}
+vcom -2008 -work work {C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/myConvert.vhd}
+vcom -2008 -work work {C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/mymult1.vhd}
+vcom -2008 -work work {C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/constDAC.vhd}
+vcom -2008 -work work {C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/constDAC2.vhd}
+vcom -2008 -work work {C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/myConvert2.vhd}
+vcom -2008 -work work {C:/Users/poker/Documents/Projects/Research/memristor-repo/fpdds/divider2.vhd}
+
