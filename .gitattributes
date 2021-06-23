@@ -1,0 +1,5 @@
+files filter=lfs diff=lfs merge=lfs -text
+larger filter=lfs diff=lfs merge=lfs -text
+than filter=lfs diff=lfs merge=lfs -text
+100M filter=lfs diff=lfs merge=lfs -text
+memristor filter=lfs diff=lfs merge=lfs -text
