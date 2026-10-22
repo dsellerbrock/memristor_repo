@@ -6,3 +6,14 @@ Memristor FPGA W Pav Dog/simulation/modelsim/.DS_Store
 Memristor FPGA W Pav Dog/.DS_Store
 .DS_Store
 Memristor FPGA W Pav Dog/.DS_Store
+
+# Quartus/ModelSim generated output
+Memristor_FPGA_W_Pav_Dog/db/
+Memristor_FPGA_W_Pav_Dog/incremental_db/
+Memristor_FPGA_W_Pav_Dog/greybox_tmp/
+Memristor_FPGA_W_Pav_Dog/output_files/
+Memristor_FPGA_W_Pav_Dog/.qsys_edit/
+Memristor_FPGA_W_Pav_Dog/simulation/modelsim/
+
+# Third-party MAPP download (get it from the MAPP project)
+Matlab-Simulink/Frameworks/MAPP-*/
